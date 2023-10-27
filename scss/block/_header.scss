@@ -19,6 +19,9 @@ header {
     }
     &_right {
       @include flex;
+      &:hover {
+        cursor: pointer;
+      }
       gap: 33px;
       &_item {
         font-size: 12px;
@@ -26,6 +29,9 @@ header {
         font-weight: 400;
         line-height: normal;
         color: #6a983c;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
